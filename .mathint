@@ -1,0 +1,49 @@
+import os
+import time
+def mathint(number1):
+    print(number1)
+def developer():
+    print("""
+----------------------------------------------------
+This code write by Ms.nope                         |
+Github: https://github.com/msprogrammer2938        |
+Instagram: https://instagram.com/programmer2938    |
+----------------------------------------------------""")
+def help():
+    print("""
+mathint.version() == version!
+mathint.mathint(example) == start math!
+mathint.help() == help!
+mathint.startmath == start Math ques!""")
+def version():
+    print("""
+-------------------------------------------------
+This code write by Ms.nope                      |
+[Calculator] [Math]     (version:1.2.0          |
+-------------------------------------------------
+Github: https://github.com/msprogrammer2938     |
+Instagram: https://instagram.com/programmer2938 |
+-------------------------------------------------""")
+def startmath():
+    number1mth = int(input("Enter number1: "))
+    time.sleep(1)
+    number2mth = int(input("Enter number2: "))
+    time.sleep(1)
+    choosemth = input("math qeus? ")
+    if choosemth == '+':
+       print(number1mth+number2mth)
+    elif choosemth == '-':
+        print(number1mth-number2mth)
+    elif choosemth == '*':
+        print(number1mth*number2mth)
+    elif choosemth == '/':
+        print(number1mth/number2mth)
+    elif choosemth == '//':
+        print(number1mth//number1mth)
+    elif choosemth == '**':
+        print(number1mth**number2mth)
+    else:
+        print("""
+        Examples: + , - , * , / , // , **
+
+        please Run Again!""")
