@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+mathint.egg-info/PKG-INFO
+mathint.egg-info/SOURCES.txt
+mathint.egg-info/dependency_links.txt
+mathint.egg-info/requires.txt
+mathint.egg-info/top_level.txt

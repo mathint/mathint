@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mathint
+Version: 1.3.0
+Summary: Mathematical problem solving tools.
+Home-page: https://github.com/msprogrammer2938
+Author: Sina Meysami
+Author-email: msprogrammer2938@gmail.com
+License: UNKNOWN
+Description: # mathint
+        Mathematical problem solving tools.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
